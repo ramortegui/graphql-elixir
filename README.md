@@ -12,6 +12,15 @@ To start your Phoenix server:
 Now you can visit [`localhost:4000/graphiql`](http://localhost:4000/graphiql) from your browser.
 
 
+## Query sample:
+    {
+      allLinks {
+        id
+        url
+        description
+      }
+    }
+
 ## Learn more
 
   * Graphql-elixir Tutorial: https://www.howtographql.com/graphql-elixir/0-introduction/
