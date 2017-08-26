@@ -21,6 +21,18 @@ Now you can visit [`localhost:4000/graphiql`](http://localhost:4000/graphiql) fr
       }
     }
 
+## Mutation sample:
+    mutation {
+      createLink(
+        url: "http://npmjs.com/package/graphql-tools",
+        description: "Best Tools!",
+      ) {
+        id
+        url
+        description
+      }
+    }
+
 ## Learn more
 
   * Graphql-elixir Tutorial: https://www.howtographql.com/graphql-elixir/0-introduction/
